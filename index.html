@@ -3,169 +3,220 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation</title>
+    <meta name="robots" content="noindex"><!-- TODO: Remove this for search indexing -->
+    <title>East Harlem Neighborhood Plan</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Open+Sans:400italic,700italic,400,700|Pacifico" rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="stylesheets/app.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>Welcome to Foundation</h1>
+
+    <div class="contain-to-grid">
+      <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+          <li class="name">
+            <h1 class="hide"><a href="#">East Harlem Neighborhood Plan</a></h1>
+          </li>
+           <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+          <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+          <!-- Left Nav Section -->
+          <ul class="left">
+            <li class=""><a href="#about">About</a></li>
+            <li class="has-dropdown">
+              <a href="#get-involved">Get Involved</a>
+              <ul class="dropdown">
+                <li><a href="#calendar">Calendar</a></li>
+                <li><a href="#documents">Documents</a></li>
+              </ul>
+            </li>
+            <li class=""><a href="#contact">Contact</a></li>
+          </ul>
+          <!-- Right Nav Section -->
+          <ul class="right">
+            <li class="active"><a href="#">English</a></li>
+            <li class=""><a href="#">Español</a></li>
+          </ul>
+        </section>
+      </nav>
+    </div>
+
+    <div class="row extra-padding-top">
+      <div class="columns small-10 small-push-1 medium-6 medium-push-3 large-5 large-push-0">
+        <h1><img src="images/east-harlem-neighborhood-plan.gif" alt="East Harlem Neighborhood Plan" class="logo"></h1>
+      </div>
+      <div class="columns small-12 large-7 extra-padding-top">
+        <p class="text-large">The Mayor has announced that East Harlem is one of the
+        communities that is set to be rezoned to facilitate building
+        more affordable housing. As the City considers these zoning
+        changes, Speaker Melissa Mark-Viverito has formed a
+        Neighborhood Study Steering Committee, which will ensure
+        that a broader set of neighborhood needs is being considered
+        and that the voice of the community informs the proposal.</p>
       </div>
     </div>
-    
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="panel">
-          <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-          <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-          <p>Once you've exhausted the fun in this document, you should check out:</p>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://zurb.com/university/code-skills">Foundation Code Skills</a><br />These online courses offer you a chance to better understand how Foundation works and how you can master it to create awesome projects.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://foundation.zurb.com/forum">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowlege.</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 medium-push-2 columns">
-              <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-            </div>
-            <div class="large-4 medium-4 medium-pull-2 columns">
-              <p><a href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-            </div>        
-          </div>
-        </div>
+
+    <div class="row full-width callout">
+      <div class="columns large-10 large-centered text-center">
+        <h2 class="charcoal">We're working with <span class="underline">you</span> to create a neighborhood plan based on the
+          <span class="nowrap-medium-up">community's needs</span>.</h2>
       </div>
     </div>
 
     <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
-
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="callout panel">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-            </div>
-          </div>
+      <div class="columns small-12">
+        <h3>The Steering Committee</h3>
+      </div>
+      <div class="columns small-12 medium-7">
+        <p>Comprised of local leaders and organizations with a rich history
+          serving the community, the Steering Committee will review the
+          community's needs and concerns, then approve the Neighborhood Plan's
+          recommendations.</p>
+      </div>
+      <div class="columns small-12 medium-5">
+        <a href="#" class="button round">Steering Committee Members</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="columns small-12 large-5">
+        <h3>Sub-Groups</h3>
+        <p>Representatives from the Steering Committee will convene smaller
+          groups on specific topics, and will invite experts and other
+          advocates to participate. They will meet prior to Steering Committee
+          meetings to organize existing information, identify priorities, and
+          draft recommendations.</p>
+        <hr class="show-for-large-up">
+        <h3>Community Visioning Workshops</h3>
+        <p>There will be five workshops organized around topics that the Steering
+          Committee will be addressing. The public is invited to participate in
+          identifying needs and concerns to help create a vision for the future
+          of East Harlem.</p>
+          <a href="#calendar" class="button round">View the Calendar</a>
+      </div>
+      <div class="columns small-11 medium-10 medium-pull-1 large-6 large-pull-0">
+        <h3 class="">Topics</h3>
+        <div class="panel relative">
+          <span class="corner-bubble">&#10102;</span>
+          <p class="no-margin"><strong>Open Space, Recreation, Culture</strong> <small class="jumbo"><em>led by NYRP</em></small></p>
+          <p class="no-margin"><strong>Culture</strong> <small class="jumbo"><em>led by El Musio del Barrio</em></small></p>
         </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
+        <div class="panel relative">
+          <span class="corner-bubble">&#10103;</span>
+          <p class="no-margin"><strong>Afterschool, Daycare, Pre-K</strong> <small class="jumbo"><em>led by Harlem RBI</em></small></p>
+          <p class="no-margin"><strong>Schools/Education</strong> <small class="jumbo"><em>led by Innovation High School</em></small></p>
         </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
+        <div class="panel relative">
+          <span class="corner-bubble">&#10104;</span>
+          <p class="no-margin"><strong>Housing Preservation</strong> <small class="jumbo"><em>led by El Barrio Operation Fightback</em></small></p>
+          <p class="no-margin"><strong>NYCHA</strong> <small class="jumbo"><em>led by Ethel Velez, Johnson houses</em></small></p>
+          <p class="no-margin"><strong>Environment, Transportation, Safety</strong> <small class="jumbo"><em>led by WEACT</em></small></p>
         </div>
-        
-        <hr />
-                
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-12.columns" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <div class="row collapse">
-                <label>Input Label</label>
-                <div class="small-9 columns">
-                  <input type="text" placeholder="small-9.columns" />
-                </div>
-                <div class="small-3 columns">
-                  <span class="postfix">.com</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Select Box</label>
-              <select>
-                <option value="husker">Husker</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-6 medium-6 columns">
-              <label>Choose Your Favorite</label>
-              <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-              <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-            </div>
-            <div class="large-6 medium-6 columns">
-              <label>Check these out</label>
-              <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-              <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Textarea Label</label>
-              <textarea placeholder="small-12.columns"></textarea>
-            </div>
-          </div>
-        </form>
-      </div>     
-
-      <div class="large-4 medium-4 columns">
-        <h5>Try one of these buttons:</h5>
-        <p><a href="#" class="small button">Simple Button</a><br/>
-        <a href="#" class="small radius button">Radius Button</a><br/>
-        <a href="#" class="small round button">Round Button</a><br/>            
-        <a href="#" class="medium success button">Success Btn</a><br/>
-        <a href="#" class="medium alert button">Alert Btn</a><br/>
-        <a href="#" class="medium secondary button">Secondary Btn</a></p>           
-        <div class="panel">
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-          <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
+        <div class="panel relative">
+          <span class="corner-bubble">&#10105;</span>
+          <p class="no-margin"><strong>Small Business, Economic Development, Workforce Development</strong> <small class="jumbo"><em>led by Union Settlement</em></small></p>
+          <p class="no-margin"><strong>Health, Seniors</strong> <small class="jumbo"><em>led by New York Academy of Medicine</em></small></p>
+        </div>
+        <div class="panel relative">
+          <span class="corner-bubble">&#10106;</span>
+          <p class="no-margin"><strong>Zoning/Land Use</strong> <small class="jumbo"><em>led by CIVTAS</em></small></p>
+          <p class="no-margin"><strong>Affordable Housing Development</strong> <small class="jumbo"><em>led by Lott CDC</em></small></p>
         </div>
       </div>
     </div>
+
+    <hr id="get-involved">
+
+    <div class="row some-margin-bottom">
+      <div class="columns">
+        <h3>We want to hear from you.</h3>
+      </div>
+      <div class="columns medium-7">
+        <p class="some-margin-bottom text-large">Please fill out our survey, attend
+          workshops and events, and provide valuable input on our process.</p>
+      </div>
+      <div class="columns medium-5">
+        <a class="button round">Fill out our survey!</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="columns medium-5" id="calendar">
+        <h4 class="some-margin-bottom">Upcoming Public Meetings</h4>
+        <!-- Google Cal embed via http://sugi.github.io/jquery-gcal-flow/ -->
+        <!-- TODO: Link to the right GCal -->
+        <div id="gcf-simple"></div>
+      </div>
+      <div class="columns medium-7" id="documents">
+        <h4>Stay up to date!</h4>
+        <p class="tiny-margin-bottom">We're still working on the East Harlem Neighborhood Plan. But here's
+          the direction we are heading in so far.</p>
+        <ul class="">
+          <li><a href="">Community Workshop Notes &amp; Presentations</a></li>
+          <li><a href="">Steering Committee Notes &amp; Presentations</a></li>
+        </ul>
+        <a href="http://www.facebook.com/groups/EastHarlemForum/" class="button round"><img src="images/FB-f-Logo__blue_512.png" class="inline-icon"> East Harlem Forum</a>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="columns">
+        <h3 class="some-margin-bottom">Steering Committee Members</h3>
+        <ul class="v-aligned-list small-block-grid-2 medium-block-grid-3 large-block-grid-4" data-equalizer data-options="equalize_on_stack: true">
+          <li class="text-center"><div class="panel no-margin" data-equalizer-watch><span>32BJ</span></div></li>
+          <li class="text-center"><div class="panel no-margin" data-equalizer-watch><span>Artimus Construction</span></div></li>
+          <li class="text-center"><div class="panel no-margin" data-equalizer-watch><span>Business Development Center&mdash;Union Settlement</span></div></li>
+          <li class="text-center"><div class="panel no-margin" data-equalizer-watch><span>CIVITAS</span></div></li>
+          <li class="text-center"><div class="panel no-margin" data-equalizer-watch><span><strong>Community Board 11</strong></span></div></li>
+          <li class="text-center"><div class="panel no-margin" data-equalizer-watch><span><strong>Community Voices Heard</strong></span></div></li>
+          <li class="text-center"><div class="panel no-margin" data-equalizer-watch><span>Councilmember Inez&nbsp;Dickens</span></div></li>
+          <li class="text-center"><div class="panel no-margin" data-equalizer-watch><span>El Barrio's Operation Fightback</span></div></li>
+          <li class="text-center"><div class="panel no-margin" data-equalizer-watch><span>El Museo Del Barrio</span></div></li>
+          <li class="text-center"><div class="panel no-margin" data-equalizer-watch><span>Harlem RBI</span></div></li>
+          <li class="text-center"><div class="panel no-margin" data-equalizer-watch><span>Johnson Houses Tenant Association&mdash;Ethel Velez</span></div></li>
+          <li class="text-center"><div class="panel no-margin" data-equalizer-watch><span>Local 79</span></div></li>
+          <li class="text-center"><div class="panel no-margin" data-equalizer-watch><span><strong>Manhattan Borough President Gale Brewer</strong></span></div></li>
+          <li class="text-center"><div class="panel no-margin" data-equalizer-watch><span>New York Academy of Medicine</span></div></li>
+          <li class="text-center"><div class="panel no-margin" data-equalizer-watch><span>New York Restoration Project</span></div></li>
+          <li class="text-center"><div class="panel no-margin" data-equalizer-watch><span>Renaissance Charter High School for Innovation</span></div></li>
+          <li class="text-center"><div class="panel no-margin" data-equalizer-watch><span>Rev. Patricia Singletary, Elmendorf Reformed Church</span></div></li>
+          <li class="text-center"><div class="panel no-margin" data-equalizer-watch><span><strong>Speaker Melissa Mark-Viverito</strong></span></div></li>
+          <li class="text-center"><div class="panel no-margin" data-equalizer-watch><span>Union Settlement&mdash;David Nocenti</span></div></li>
+          <li class="text-center"><div class="panel no-margin" data-equalizer-watch><span>WEACT</span></div></li>
+        </ul>
+        <div class="some-padding-bottom"><em class="">* Project Partners in bold will help pull together the topic sub-groups,
+        steering committee, and community visioning workshops.</em></div>
+      </div>
+    </div>
+
+    <hr id="contact">
+
+    <div class="row">
+      <div class="columns medium-4 large-2">
+        <h3>Contact</h3>
+      </div>
+      <div class="columns medium-8 large-10">
+        <br class="show-for-medium-up">
+        <ul class="tiny-padding-top">
+          <li><strong><a href="http://council.nyc.gov/d8/html/members/home.shtml">Speaker Melissa Mark-Viverito</a></strong> &mdash; <strong>(212) 788-9121</strong></li>
+          <li><strong><a href="http://www.nyc.gov/html/qnscb11/html/home/home.shtml">Community Board 11</a></strong> &mdash; <strong>(212) 831-8929</strong></li>
+          <li><strong><a href="http://www.cvhaction.org/">Community Voices Heard</a></strong> &mdash; <strong>(212) 860-6001</strong></li>
+          <li><strong><a href="http://manhattanbp.nyc.gov/html/home/home.shtml">Manhattan Borough President Gale A. Brewer</a></strong> &mdash; <strong>(212) 669-8300</strong></li>
+          <li><strong><a href="mailto:EHNhoodStudy@gmail.com">EHNhoodStudy@gmail.com</a></strong></li>
+        </ul>
+      </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/jquery-gcal-flow-3.0.1/jquery.gcal_flow.min.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>
