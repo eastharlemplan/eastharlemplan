@@ -288,8 +288,22 @@ img {
 }
 
 .underline {
-  background: red url(../images/underline.png) center bottom repeat-x;
+  background: transparent url(../images/underline.png) left bottom repeat-x;
+  margin-right: -0.5rem;
+  margin-left: -0.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
 }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+  .underline {
+    background-image: url(../images/underline@2x.png);
+    background-size: 100px 15px;
+  }
+}
+
 
 .gCalFlow {}
 .gcf-header-block {}
