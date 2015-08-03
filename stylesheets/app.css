@@ -1736,7 +1736,7 @@ select {
   font-size: 0.8125rem;
   font-weight: 400;
   margin-bottom: 1.25rem;
-  padding: 0.875rem 1.5rem 0.875rem 0.875rem;
+  padding: 0.625rem 1.25rem 0.625rem 0.625rem;
   position: relative;
   transition: opacity 300ms ease-out;
   background-color: #0aa3cd;
@@ -5625,7 +5625,7 @@ ul.pagination li {
   margin-bottom: 1.25rem;
   padding: 0.625rem 1rem;
   background: #fff7cd;
-  color: #333333;
+  color: inherit;
 }
 /* line 61, ../bower_components/foundation/scss/foundation/components/_panels.scss */
 .panel > :first-child {
@@ -5637,7 +5637,7 @@ ul.pagination li {
 }
 /* line 67, ../bower_components/foundation/scss/foundation/components/_panels.scss */
 .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p, .panel li, .panel dl {
-  color: #333333;
+  color: inherit;
 }
 /* line 74, ../bower_components/foundation/scss/foundation/components/_panels.scss */
 .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
@@ -5656,7 +5656,7 @@ ul.pagination li {
   margin-bottom: 1.25rem;
   padding: 0.625rem 1rem;
   background: #eefbfe;
-  color: #333333;
+  color: inherit;
 }
 /* line 61, ../bower_components/foundation/scss/foundation/components/_panels.scss */
 .panel.callout > :first-child {
@@ -5668,7 +5668,7 @@ ul.pagination li {
 }
 /* line 67, ../bower_components/foundation/scss/foundation/components/_panels.scss */
 .panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6, .panel.callout p, .panel.callout li, .panel.callout dl {
-  color: #333333;
+  color: inherit;
 }
 /* line 74, ../bower_components/foundation/scss/foundation/components/_panels.scss */
 .panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6 {
@@ -9837,9 +9837,16 @@ img.logo {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+/* line 272, ../scss/app.scss */
+.v-aligned-list .panel .label {
+  position: absolute;
+  top: -0.375rem;
+  left: -0.375rem;
 }
 
-/* line 273, ../scss/app.scss */
+/* line 279, ../scss/app.scss */
 .corner-bubble {
   position: absolute;
   top: -0.3125rem;
@@ -9851,14 +9858,14 @@ img.logo {
   font-size: 3.125rem;
 }
 
-/* line 284, ../scss/app.scss */
+/* line 290, ../scss/app.scss */
 .script {
   font-family: "Pacifico", cursive;
   font-weight: normal;
   text-transform: lowercase;
 }
 
-/* line 290, ../scss/app.scss */
+/* line 296, ../scss/app.scss */
 .underline {
   background: transparent url(../images/underline.png) left bottom repeat-x;
   margin-right: -0.5rem;
@@ -9868,18 +9875,18 @@ img.logo {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 301, ../scss/app.scss */
+  /* line 307, ../scss/app.scss */
   .underline {
     background-image: url(../images/underline@2x.png);
     background-size: 100px 15px;
   }
 }
-/* line 310, ../scss/app.scss */
+/* line 316, ../scss/app.scss */
 .gcf-title-block {
   padding-bottom: 0.625rem;
 }
 
-/* line 313, ../scss/app.scss */
+/* line 319, ../scss/app.scss */
 .gcf-title {
   font-size: 1.75rem;
   font-weight: bold;
@@ -9887,15 +9894,15 @@ img.logo {
   text-transform: lowercase;
   font-weight: normal;
 }
-/* line 319, ../scss/app.scss */
+/* line 325, ../scss/app.scss */
 .gcf-title a {
   color: #18c5f4;
 }
-/* line 321, ../scss/app.scss */
+/* line 327, ../scss/app.scss */
 .gcf-title a:hover {
   color: #0aa3cd;
 }
-/* line 324, ../scss/app.scss */
+/* line 330, ../scss/app.scss */
 .gcf-title a:before {
   font-size: 1rem;
   font-weight: bold;
@@ -9913,17 +9920,17 @@ img.logo {
   box-shadow: 0 -0.5rem 0 #ff4c30, 0 1px 0.25rem #ffe049;
 }
 
-/* line 343, ../scss/app.scss */
+/* line 349, ../scss/app.scss */
 .gcf-item-block {
   padding: 0 0 1rem 0;
 }
-/* line 345, ../scss/app.scss */
+/* line 351, ../scss/app.scss */
 .gcf-item-block + .gcf-item-block {
   border-top: 1px solid #e4ce64;
   padding-top: 1rem;
 }
 
-/* line 351, ../scss/app.scss */
+/* line 357, ../scss/app.scss */
 .gcf-item-date-block {
   color: #ffe049;
   background-color: #ffe049;
@@ -9931,12 +9938,12 @@ img.logo {
   font-size: 80%;
 }
 
-/* line 357, ../scss/app.scss */
+/* line 363, ../scss/app.scss */
 .gcf-item-daterange {
   color: #444444;
 }
 
-/* line 365, ../scss/app.scss */
+/* line 371, ../scss/app.scss */
 .gcf-last-update-block {
   font-size: 80%;
   font-style: italic;
