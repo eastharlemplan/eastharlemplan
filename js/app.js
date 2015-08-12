@@ -3,6 +3,5 @@
 $(document).foundation();
 
 $(function() { $('#gcf-simple').gCalFlow({
-  calid: 'linuxfoundation.org_34363837313836302d343036@resource.calendar.google.com',
-  maxitem: 5
+  calid: 'g8mgh3ggj2dmbdmku6c2g0p05k@group.calendar.google.com'
 });});

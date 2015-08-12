@@ -87,14 +87,15 @@ $include-html-global-classes: $include-html-classes;
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 // We use these to define default font stacks
-$font-family-sans-serif: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+// $font-family-sans-serif: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-sans-serif: "Chivo", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 // $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
-$font-family-script: 'Pacifico', cursive;
+// $font-family-script: 'Pacifico', cursive;
 
 // We use these to define default font weights
 $font-weight-normal: 400;
-$font-weight-bold: 700;
+$font-weight-bold: 900;
 
 $white       : #FFFFFF;
 $ghost       : #FAFAFA;
@@ -117,10 +118,10 @@ $jet         : #222222;
 $black       : #000000;
 
 // Brand colors
-$blue: #18c5f4;
+$blue: #00b9f1;
 $dark-blue: scale-color($blue, $lightness: -20%);
-$red: #ff4c30;
-$pale-yellow: #ffee9b;
+$red: #f04e37;
+$pale-yellow: #ffef96;
 $yellow: scale-color($pale-yellow, $lightness: -20%);
 
 // We use these as default colors throughout
@@ -218,8 +219,9 @@ $global-radius: 0.5rem;
 // $include-html-type-classes: $include-html-classes;
 
 // We use these to control header font styles
-$header-font-family: "Open Sans Condensed", "Roboto Condensed", Impact, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-$header-font-weight: 700;
+// $header-font-family: "Open Sans Condensed", "Roboto Condensed", Impact, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$header-font-family: "Chivo", "Roboto Condensed", Impact, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$header-font-weight: 900;
 // $header-font-style: normal;
 // $header-font-color: $jet;
 // $header-line-height: 1.4;
@@ -1425,7 +1427,7 @@ $topbar-link-color: scale-color($red, $lightness: -30%, $saturation: -30%);
 $topbar-link-color-active: desaturate($red, 25%);
 // $topbar-link-color-active-hover: $white;
 $topbar-link-weight: $header-font-weight;
-$topbar-link-font-size: rem-calc(21);
+$topbar-link-font-size: 1rem;
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
 // $topbar-link-bg: $topbar-bg;
 $topbar-link-bg-hover: $primary-color;
