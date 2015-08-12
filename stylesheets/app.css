@@ -9879,25 +9879,25 @@ img.logo {
   box-shadow: -0.375rem 0.375rem #FFFFFF;
 }
 
-/* line 313, ../scss/app.scss */
+/* line 314, ../scss/app.scss */
 .gcf-title-block {
   padding-bottom: 0.625rem;
 }
 
-/* line 316, ../scss/app.scss */
+/* line 317, ../scss/app.scss */
 .gcf-title {
   font-size: 1.75rem;
   font-weight: 900;
 }
-/* line 319, ../scss/app.scss */
+/* line 320, ../scss/app.scss */
 .gcf-title a {
   color: #00b9f1;
 }
-/* line 321, ../scss/app.scss */
+/* line 322, ../scss/app.scss */
 .gcf-title a:hover {
   color: #0094c1;
 }
-/* line 324, ../scss/app.scss */
+/* line 325, ../scss/app.scss */
 .gcf-title a:before {
   font-size: 1rem;
   font-weight: 900;
@@ -9915,17 +9915,17 @@ img.logo {
   box-shadow: 0 -0.5rem 0 #f04e37, 0 1px 0.25rem #ffe345;
 }
 
-/* line 343, ../scss/app.scss */
+/* line 344, ../scss/app.scss */
 .gcf-item-block {
   padding: 0 0 1rem 0;
 }
-/* line 345, ../scss/app.scss */
+/* line 346, ../scss/app.scss */
 .gcf-item-block + .gcf-item-block {
   border-top: 1px solid #e3cf61;
   padding-top: 1rem;
 }
 
-/* line 351, ../scss/app.scss */
+/* line 352, ../scss/app.scss */
 .gcf-item-date-block {
   color: #ffe345;
   background-color: #ffe345;
@@ -9933,15 +9933,27 @@ img.logo {
   font-size: 80%;
 }
 
-/* line 357, ../scss/app.scss */
+/* line 358, ../scss/app.scss */
 .gcf-item-daterange {
   color: #444444;
 }
 
-/* line 365, ../scss/app.scss */
+/* line 366, ../scss/app.scss */
 .gcf-last-update-block {
   font-size: 80%;
   font-style: italic;
   text-align: right;
   padding: 0.625rem 0;
+}
+
+/* line 375, ../scss/app.scss */
+.google-drive {
+  background-color: #fff7cb;
+  box-shadow: inset -0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  height: 235px;
+}
+/* line 379, ../scss/app.scss */
+.google-drive iframe {
+  width: 100%;
+  height: 100%;
 }
