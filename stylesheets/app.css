@@ -92,7 +92,7 @@ body {
   background: #ffef96;
   color: #444444;
   cursor: auto;
-  font-family: "Chivo", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -1709,7 +1709,7 @@ select {
   background: #EFEFEF;
   color: #222222;
   display: block;
-  font-family: "Chivo", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1rem;
   padding: 1rem;
 }
@@ -2420,8 +2420,8 @@ button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "Chivo", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-weight: 900;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: 700;
   line-height: normal;
   margin: 0 0 1.25rem;
   position: relative;
@@ -4377,7 +4377,7 @@ fieldset {
 /* line 279, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 fieldset legend {
   background: #FFFFFF;
-  font-weight: 900;
+  font-weight: 700;
   margin-left: -0.1875rem;
   margin: 0;
   padding: 0 0.1875rem;
@@ -5013,7 +5013,7 @@ label.error {
 .joyride-tip-guide h5,
 .joyride-tip-guide h6 {
   color: #FFFFFF;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1.25;
   margin: 0;
 }
@@ -5145,7 +5145,7 @@ kbd {
 /* line 91, ../bower_components/foundation/scss/foundation/components/_labels.scss */
 .label {
   display: inline-block;
-  font-family: "Chivo", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: 400;
   line-height: 1;
   margin-bottom: auto;
@@ -5593,7 +5593,7 @@ ul.pagination li.current a, ul.pagination li.current button {
   background: #0094c1;
   color: #FFFFFF;
   cursor: default;
-  font-weight: 900;
+  font-weight: 700;
 }
 /* line 74, ../bower_components/foundation/scss/foundation/components/_pagination.scss */
 ul.pagination li.current a:hover, ul.pagination li.current a:focus, ul.pagination li.current button:hover, ul.pagination li.current button:focus {
@@ -5708,7 +5708,7 @@ ul.pagination li {
 .pricing-table .title {
   background-color: #333333;
   color: #EEEEEE;
-  font-family: "Chivo", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   padding: 0.9375rem 1.25rem;
@@ -5718,7 +5718,7 @@ ul.pagination li {
 .pricing-table .price {
   background-color: #F6F6F6;
   color: #333333;
-  font-family: "Chivo", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 2rem;
   font-weight: 400;
   padding: 0.9375rem 1.25rem;
@@ -6069,7 +6069,7 @@ ul.pagination li {
   color: #AAAAAA;
   cursor: pointer;
   font-size: 2.5rem;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1;
   position: absolute;
   top: 0.625rem;
@@ -6079,7 +6079,7 @@ ul.pagination li {
 /* line 118, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav {
   display: block;
-  font-family: "Chivo", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   list-style-position: outside;
   list-style-type: none;
   margin: 0;
@@ -6110,7 +6110,7 @@ ul.pagination li {
 /* line 91, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li.active > a:first-child:not(.button) {
   color: #21cbff;
-  font-family: "Chivo", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: 400;
 }
 /* line 97, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
@@ -6296,7 +6296,7 @@ ul.pagination li {
 .sub-nav li {
   color: #999999;
   float: left;
-  font-family: "Chivo", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
   margin-left: 1rem;
@@ -6513,7 +6513,7 @@ table thead tr th,
 table thead tr td {
   color: #222222;
   font-size: 0.875rem;
-  font-weight: 900;
+  font-weight: 700;
   padding: 0.5rem 0.625rem 0.625rem;
 }
 /* line 92, ../bower_components/foundation/scss/foundation/components/_tables.scss */
@@ -6525,7 +6525,7 @@ table tfoot tr th,
 table tfoot tr td {
   color: #222222;
   font-size: 0.875rem;
-  font-weight: 900;
+  font-weight: 700;
   padding: 0.5rem 0.625rem 0.625rem;
 }
 /* line 107, ../bower_components/foundation/scss/foundation/components/_tables.scss */
@@ -6579,7 +6579,7 @@ table tr td {
   display: block;
   background-color: #EFEFEF;
   color: #222222;
-  font-family: "Chivo", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1rem;
   padding: 1rem 2rem;
 }
@@ -6708,7 +6708,7 @@ table tr td {
   border-bottom: dotted 1px #CCCCCC;
   color: #333333;
   cursor: help;
-  font-weight: 900;
+  font-weight: 700;
 }
 /* line 44, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
 .has-tip:hover, .has-tip:focus {
@@ -6937,7 +6937,7 @@ meta.foundation-mq-topbar {
   color: #a53929;
   display: block;
   font-size: 0.8125rem;
-  font-weight: 900;
+  font-weight: 700;
   height: 3.75rem;
   line-height: 3.75rem;
   padding: 0 1.25rem;
@@ -7034,9 +7034,9 @@ meta.foundation-mq-topbar {
 .top-bar-section ul li > a {
   color: #a53929;
   display: block;
-  font-family: "Chivo", "Roboto Condensed", Impact, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans Condensed", "Roboto Condensed", Impact, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1rem;
-  font-weight: 900;
+  font-weight: 700;
   padding-left: 1.25rem;
   padding: 12px 0 12px 1.25rem;
   text-transform: uppercase;
@@ -7300,7 +7300,7 @@ meta.foundation-mq-topbar {
 }
 /* line 447, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li a.parent-link {
-  font-weight: 900;
+  font-weight: 700;
 }
 /* line 452, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li.title h5, .top-bar-section .dropdown li.parent-link {
@@ -7330,7 +7330,7 @@ meta.foundation-mq-topbar {
 .top-bar-section .dropdown label {
   color: #777777;
   font-size: 0.625rem;
-  font-weight: 900;
+  font-weight: 700;
   margin-bottom: 0;
   padding: 8px 1.25rem 2px;
   text-transform: uppercase;
@@ -7899,9 +7899,9 @@ p aside {
 /* line 252, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #222222;
-  font-family: "Chivo", "Roboto Condensed", Impact, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans Condensed", "Roboto Condensed", Impact, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1.4;
   margin-bottom: 0.5rem;
   margin-top: 0.2rem;
@@ -7973,7 +7973,7 @@ i {
 /* line 293, ../bower_components/foundation/scss/foundation/components/_type.scss */
 strong,
 b {
-  font-weight: 900;
+  font-weight: 700;
   line-height: inherit;
 }
 
@@ -8070,7 +8070,7 @@ ol li ol {
 /* line 376, ../bower_components/foundation/scss/foundation/components/_type.scss */
 dl dt {
   margin-bottom: 0.3rem;
-  font-weight: 900;
+  font-weight: 700;
 }
 /* line 380, ../bower_components/foundation/scss/foundation/components/_type.scss */
 dl dd {
@@ -8141,19 +8141,19 @@ blockquote p {
 }
 /* line 435, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .vcard .fn {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 0.9375rem;
 }
 
 /* line 442, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .vevent .summary {
-  font-weight: 900;
+  font-weight: 700;
 }
 /* line 444, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .vevent abbr {
   cursor: default;
   text-decoration: none;
-  font-weight: 900;
+  font-weight: 700;
   border: none;
   padding: 0 0.0625rem;
 }
@@ -8239,7 +8239,7 @@ blockquote p {
 /* line 170, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 .tab-bar h1, .tab-bar h2, .tab-bar h3, .tab-bar h4, .tab-bar h5, .tab-bar h6 {
   color: #FFFFFF;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 2.8125rem;
   margin: 0;
 }
@@ -8398,7 +8398,7 @@ ul.off-canvas-list li label {
   color: #999999;
   display: block;
   font-size: 0.75rem;
-  font-weight: 900;
+  font-weight: 700;
   margin: 0;
   padding: 0.3rem 0.9375rem;
   text-transform: uppercase;
@@ -8634,7 +8634,7 @@ ul.off-canvas-list li a:active {
   border-bottom: none;
   border-top: 1px solid #5e5e5e;
   color: #999999;
-  font-weight: 900;
+  font-weight: 700;
   padding: 0.3rem 0.9375rem;
   text-transform: uppercase;
   margin: 0;
@@ -8698,7 +8698,7 @@ ul.off-canvas-list li a:active {
   border-bottom: none;
   border-top: 1px solid #5e5e5e;
   color: #999999;
-  font-weight: 900;
+  font-weight: 700;
   padding: 0.3rem 0.9375rem;
   text-transform: uppercase;
   margin: 0;
@@ -9886,21 +9886,22 @@ img.logo {
 
 /* line 317, ../scss/app.scss */
 .gcf-title {
-  font-size: 1.75rem;
-  font-weight: 900;
+  font-family: "Open Sans Condensed", "Roboto Condensed", Impact, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 2.3125rem;
+  font-weight: 700;
 }
-/* line 320, ../scss/app.scss */
+/* line 321, ../scss/app.scss */
 .gcf-title a {
   color: #00b9f1;
 }
-/* line 322, ../scss/app.scss */
+/* line 323, ../scss/app.scss */
 .gcf-title a:hover {
   color: #0094c1;
 }
-/* line 325, ../scss/app.scss */
+/* line 326, ../scss/app.scss */
 .gcf-title a:before {
   font-size: 1rem;
-  font-weight: 900;
+  font-weight: 700;
   content: '\2759';
   display: inline-block;
   background-color: #FFFFFF;
@@ -9915,17 +9916,17 @@ img.logo {
   box-shadow: 0 -0.5rem 0 #f04e37, 0 1px 0.25rem #ffe345;
 }
 
-/* line 344, ../scss/app.scss */
+/* line 345, ../scss/app.scss */
 .gcf-item-block {
   padding: 0 0 1rem 0;
 }
-/* line 346, ../scss/app.scss */
+/* line 347, ../scss/app.scss */
 .gcf-item-block + .gcf-item-block {
   border-top: 1px solid #e3cf61;
   padding-top: 1rem;
 }
 
-/* line 352, ../scss/app.scss */
+/* line 353, ../scss/app.scss */
 .gcf-item-date-block {
   color: #ffe345;
   background-color: #ffe345;
@@ -9933,12 +9934,12 @@ img.logo {
   font-size: 80%;
 }
 
-/* line 358, ../scss/app.scss */
+/* line 359, ../scss/app.scss */
 .gcf-item-daterange {
   color: #444444;
 }
 
-/* line 366, ../scss/app.scss */
+/* line 367, ../scss/app.scss */
 .gcf-last-update-block {
   font-size: 80%;
   font-style: italic;
@@ -9946,29 +9947,29 @@ img.logo {
   padding: 0.625rem 0;
 }
 
-/* line 375, ../scss/app.scss */
+/* line 376, ../scss/app.scss */
 .google-drive {
   background-color: #fff7cb;
   box-shadow: inset -0.5rem 0.5rem rgba(0, 0, 0, 0.1);
   height: 235px;
 }
-/* line 379, ../scss/app.scss */
+/* line 380, ../scss/app.scss */
 .google-drive iframe {
   width: 100%;
   height: 100%;
 }
 
-/* line 386, ../scss/app.scss */
+/* line 387, ../scss/app.scss */
 .flickr {
   position: relative;
-  padding-bottom: 61%;
+  padding-bottom: 61.75%;
   padding-top: 30px;
   height: 0;
   overflow: hidden;
   max-width: 100%;
   height: auto;
 }
-/* line 394, ../scss/app.scss */
+/* line 395, ../scss/app.scss */
 .flickr iframe {
   position: absolute;
   top: 0;

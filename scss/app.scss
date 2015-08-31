@@ -315,8 +315,9 @@ only screen and (min-device-pixel-ratio: 1.5) {
   padding-bottom: rem-calc(10);
 }
 .gcf-title {
-  font-size: rem-calc(28);
-  font-weight: $font-weight-bold;
+  font-family: $header-font-family;
+  font-size: $h3-font-size;
+  font-weight: $header-font-weight;
   a {
     color: $blue;
     &:hover {
@@ -385,7 +386,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 // Flickr
 .flickr {
   position: relative;
-  padding-bottom: 61%;
+  padding-bottom: 61.75%;
   padding-top: 30px;
   height: 0;
   overflow: hidden;
