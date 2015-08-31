@@ -9957,3 +9957,22 @@ img.logo {
   width: 100%;
   height: 100%;
 }
+
+/* line 386, ../scss/app.scss */
+.flickr {
+  position: relative;
+  padding-bottom: 61%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+/* line 394, ../scss/app.scss */
+.flickr iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
