@@ -400,3 +400,23 @@ only screen and (min-device-pixel-ratio: 1.5) {
     height: 100%;
   }
 }
+
+// Center the text & Facebook video
+@media #{$large-up} {
+  .center-box-table {
+    display: table;
+    width: 100%;
+  }
+  .center-box-cell {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    &.text {
+      width: 50%;
+      padding: 2.5rem
+    }
+    &.video {
+      width: 50%;
+    }
+  }
+}

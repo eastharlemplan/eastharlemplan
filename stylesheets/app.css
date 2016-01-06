@@ -9977,3 +9977,27 @@ img.logo {
   width: 100%;
   height: 100%;
 }
+
+@media only screen and (min-width: 64.0625em) {
+  /* line 406, ../scss/app.scss */
+  .center-box-table {
+    display: table;
+    width: 100%;
+  }
+
+  /* line 410, ../scss/app.scss */
+  .center-box-cell {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+  /* line 414, ../scss/app.scss */
+  .center-box-cell.text {
+    width: 50%;
+    padding: 2.5rem;
+  }
+  /* line 418, ../scss/app.scss */
+  .center-box-cell.video {
+    width: 50%;
+  }
+}
